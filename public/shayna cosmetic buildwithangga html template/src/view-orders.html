@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="relative mx-auto flex min-h-screen max-w-[640px] flex-col gap-5 bg-[#F6F6F8] pb-[162px]">
+            <div id="Background" class="absolute left-0 right-0 top-0">
+                <img src="assets/images/backgorunds/cosmetic-equipment.png" alt="image" class="h-[421px] w-full object-cover object-bottom" />
+            </div>
+            <div class="mt-[155px] flex flex-col gap-[30px] px-5">
+                <header class="relative flex flex-col gap-1">
+                    <img src="assets/images/icons/car-black.svg" alt="icon" class="mx-auto size-[70px] shrink-0" />
+                    <h1 class="text-center text-[26px] font-bold leading-[39px]">Track Your Orders</h1>
+                    <p class="text-center">Gunakan informasi di bawah agar anda dapat melihat status pemesanannya</p>
+                </header>
+                <form id="Information" class="relative" action="view-orders-result.html">
+                    <div class="flex w-full flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                        <label class="flex flex-col gap-[6px]">
+                            <h4 class="font-semibold text-[#030504]">Booking TRX ID</h4>
+                            <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                <input required type="text" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Enter your Booking ID" />
+                                <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                    <img src="assets/images/icons/booking-trx-id.svg" alt="icon" class="size-[24px] shrink-0" />
+                                    <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                </div>
+                            </div>
+                            <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                        </label>
+                        <label class="flex flex-col gap-[6px]">
+                            <h4 class="font-semibold text-[#030504]">Email Address</h4>
+                            <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                <input required type="email" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Write your complete email" />
+                                <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                    <img src="assets/images/icons/mail.svg" alt="icon" class="size-[24px] shrink-0" />
+                                    <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                </div>
+                            </div>
+                            <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                        </label>
+                        <button type="submit" class="flex w-full justify-center rounded-full bg-cosmetics-gradient-pink-white py-[14px] font-semibold text-white transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">Find My Booking</button>
+                    </div>
+                </form>
+            </div>
+            <nav class="fixed bottom-0 left-0 right-0 z-30 mx-auto w-full">
+                <div class="mx-auto max-w-[640px]">
+                    <div class="h-[89px] bg-white px-[30px] shadow-[0px_-4px_30px_0px_#1107260D]">
+                        <ul class="flex justify-between">
+                            <li class="flex items-center">
+                                <a href="index.html">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/browse-black.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Browse</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/car-pink.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Orders</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="relative -top-[23px]">
+                                    <div class="relative flex h-[80px] w-[80px] items-center justify-center rounded-full bg-[#F5F5F7]">
+                                        <div class="flex size-[65px] items-center justify-center rounded-full bg-cosmetics-gradient-pink-white transition-shadow duration-300 hover:shadow-[0px_6px_10px_0px_#FF4D9E6E]">
+                                            <img src="assets/images/icons/video.svg" alt="icon" class="size-[30px] shrink-0" />
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/gift.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Perks</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/message.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Helps</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </main>
+    </body>
+</html>

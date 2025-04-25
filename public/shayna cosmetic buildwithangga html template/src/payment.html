@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="mx-auto flex min-h-screen max-w-[640px] flex-col gap-5 bg-[#F6F6F8] pb-[30px]">
+            <section id="NavTop">
+                <div class="px-5">
+                    <div class="mt-5 flex w-full flex-col gap-5 rounded-3xl bg-white pb-[44px] pt-3">
+                        <div class="relative">
+                            <a href="booking.html">
+                                <div class="absolute left-3 top-1/2 flex size-[44px] shrink-0 -translate-y-1/2 items-center justify-center rounded-full border border-cosmetics-greylight">
+                                    <img src="assets/images/icons/left.svg" alt="icon" class="size-5 shrink-0" />
+                                </div>
+                            </a>
+                            <div class="flex flex-col gap-[2px]">
+                                <h1 class="text-center text-lg font-bold leading-[27px]">Payment</h1>
+                                <p class="text-center text-sm leading-[21px] text-cosmetics-grey">We’ll give best treat</p>
+                            </div>
+                        </div>
+                        <div id="ProgressBar" class="relative px-5">
+                            <div class="flex">
+                                <div class="flex flex-col items-center">
+                                    <div class="relative z-10 flex h-[25px] items-center">
+                                        <div class="h-2 w-[60px] rounded-full bg-cosmetics-purple"></div>
+                                        <div class="absolute right-0 top-0 translate-x-1/2">
+                                            <div class="flex flex-col items-center gap-[6px]">
+                                                <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">1</div>
+                                                <p class="text-xs font-semibold leading-[18px]">Booking</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative flex h-[25px] w-full items-center">
+                                    <div class="left-0 h-2 w-1/2 rounded-full bg-cosmetics-purple"></div>
+                                    <div class="absolute right-1/2 top-0 translate-x-1/2">
+                                        <div class="flex flex-col items-center gap-[6px]">
+                                            <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">2</div>
+                                            <p class="text-xs font-semibold leading-[18px]">Payment</p>
+                                        </div>
+                                    </div>
+                                    <div class="right-0 h-2 w-1/2 rounded-full bg-[#EDEDF5]"></div>
+                                </div>
+                                <div class="relative z-10 flex h-[25px] w-[60px] items-center">
+                                    <div class="h-2 w-[60px] rounded-full bg-[#EDEDF5]"></div>
+                                    <div class="absolute left-0 top-0 -translate-x-1/2">
+                                        <div class="flex flex-col items-center gap-[6px]">
+                                            <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-[#D8D8E4] text-xs font-bold leading-[18px]">3</div>
+                                            <p class="text-xs font-semibold leading-[18px]">Delivery</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <header>
+                <div class="flex flex-col gap-1 px-5">
+                    <h2 class="text-[26px] font-bold leading-[39px]">Make Payment</h2>
+                    <p class="text-cosmetics-grey">Data asli harus diberikan amet</p>
+                </div>
+            </header>
+            <section id="Informations" class="px-5">
+                <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                            <div class="flex flex-col gap-1">
+                                <h3 class="font-semibold text-[#0C0422]">Payment Details</h3>
+                                <p class="text-sm leading-[21px] text-[#8C8582]">Sebelum bayar cek lagi</p>
+                            </div>
+                        </div>
+                        <button type="button" data-expand="PaymentDetailsJ" class="shrink-0">
+                            <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0 transition-all duration-300" />
+                        </button>
+                    </div>
+                    <div id="PaymentDetailsJ" class="flex flex-col gap-5">
+                        <div class="box h-[1px] w-full"></div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Total Quantity</p>
+                            </div>
+                            <strong class="font-semibold">198 Items</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Sub Total</p>
+                            </div>
+                            <strong class="font-semibold">Rp 19.000.000</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Discount Code</p>
+                            </div>
+                            <strong class="font-semibold">Rp 0</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Delivery Fee</p>
+                            </div>
+                            <strong class="font-semibold">Rp 0 (Promo)</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Insurance</p>
+                            </div>
+                            <strong class="font-semibold">Included</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Tax 11%</p>
+                            </div>
+                            <strong class="font-semibold">Rp 8.380.391</strong>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-[6px]">
+                                <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                <p>Grand Total</p>
+                            </div>
+                            <strong class="text-[22px] font-bold leading-[33px] text-cosmetics-pink">Rp 58.380.391</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="TrustedEwallets" class="px-5">
+                <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/icons/wallet.svg" alt="icon" class="size-[38px] shrink-0" />
+                            <div class="flex flex-col gap-1">
+                                <h3 class="font-semibold text-[#0C0422]">Trusted E-Wallets</h3>
+                                <p class="text-sm leading-[21px] text-[#8C8582]">Choose lorem dolor active</p>
+                            </div>
+                        </div>
+                        <button type="button" data-expand="TrustedEwalletsJ" class="shrink-0">
+                            <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0 transition-all duration-300" />
+                        </button>
+                    </div>
+                    <div id="TrustedEwalletsJ" class="flex flex-col gap-5">
+                        <div class="box h-[1px] w-full"></div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="assets/images/thumbnails/link-aja.png" alt="image" class="h-[60px] w-[80px] shrink-0" />
+                                <div>
+                                    <h4 class="font-semibold">LinkAja Pro</h4>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Offline</p>
+                                </div>
+                            </div>
+                            <span class="rounded-full bg-[#F6F6F8] px-[14px] py-2">
+                                <p class="text-sm font-semibold leading-[21px] text-[#ACACB9]">Inactive</p>
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="assets/images/thumbnails/ovo.png" alt="image" class="h-[60px] w-[80px] shrink-0" />
+                                <div>
+                                    <h4 class="font-semibold">OVO Inter</h4>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Offline</p>
+                                </div>
+                            </div>
+                            <span class="rounded-full bg-[#F6F6F8] px-[14px] py-2">
+                                <p class="text-sm font-semibold leading-[21px] text-[#ACACB9]">Inactive</p>
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="assets/images/thumbnails/gopay.png" alt="image" class="h-[60px] w-[80px] shrink-0" />
+                                <div>
+                                    <h4 class="font-semibold">Link Aja</h4>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Offline</p>
+                                </div>
+                            </div>
+                            <span class="rounded-full bg-[#F6F6F8] px-[14px] py-2">
+                                <p class="text-sm font-semibold leading-[21px] text-[#ACACB9]">Inactive</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="CasOnDelivery" class="px-5">
+                <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/icons/cash.svg" alt="icon" class="size-[38px] shrink-0" />
+                            <div class="flex flex-col gap-1">
+                                <h3 class="font-semibold text-[#0C0422]">Cash on Delivery</h3>
+                                <p class="text-sm leading-[21px] text-[#8C8582]">Choose lorem dolor active</p>
+                            </div>
+                        </div>
+                        <button type="button" data-expand="CasOnDeliveryJ" class="shrink-0">
+                            <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0 transition-all duration-300" />
+                        </button>
+                    </div>
+                    <div id="CasOnDeliveryJ" class="flex flex-col gap-5">
+                        <div class="box h-[1px] w-full"></div>
+                        <div class="rounded-2xl bg-[#F6F6F8] p-[10px]">
+                            <p class="text-sm">Layanan pembayaran ini belum si amet tersedia karena sedang proses dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="BankTransfer" class="px-5">
+                <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/icons/banktf.svg" alt="icon" class="size-[38px] shrink-0" />
+                            <div class="flex flex-col gap-1">
+                                <h3 class="font-semibold text-[#0C0422]">Bank Transfer</h3>
+                                <p class="text-sm leading-[21px] text-[#8C8582]">Choose lorem dolor active</p>
+                            </div>
+                        </div>
+                        <button type="button" data-expand="BankTransferJ" class="shrink-0">
+                            <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0 transition-all duration-300" />
+                        </button>
+                    </div>
+                    <div id="BankTransferJ" class="flex flex-col gap-5">
+                        <div class="box h-[1px] w-full"></div>
+                        <div class="flex items-start gap-4">
+                            <img src="assets/images/thumbnails/bca.png" alt="image" class="h-[60px] w-[81px] shrink-0" />
+                            <div>
+                                <h4 class="text-sm leading-[21px] text-cosmetics-grey">Bank Central Asia</h4>
+                                <strong class="font-semibold">9893981092</strong>
+                                <p class="text-sm leading-[21px] text-cosmetics-grey">PT Shayna Beauty</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <img src="assets/images/thumbnails/mandiri.png" alt="image" class="h-[60px] w-[81px] shrink-0" />
+                            <div>
+                                <h4 class="text-sm leading-[21px] text-cosmetics-grey">Bank Mandiri</h4>
+                                <strong class="font-semibold">193084820912</strong>
+                                <p class="text-sm leading-[21px] text-cosmetics-grey">PT Shayna Beauty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <form action="booking-finished.html" class="flex flex-col gap-5 px-5">
+                <section id="PaymentConfirmation">
+                    <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                            <div class="flex flex-col gap-1">
+                                <h3 class="font-semibold text-[#0C0422]">Payment Confirmation</h3>
+                                <p class="text-sm leading-[21px] text-[#8C8582]">Upload bukti transfer lorem dor</p>
+                            </div>
+                        </div>
+                        <div class="box h-[1px] w-full"></div>
+                        <label class="flex flex-col gap-[6px]">
+                            <h4 class="font-semibold text-[#030504]">Proof of Payment</h4>
+                            <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                <div class="h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] transition-all duration-300 focus-within:h-[calc(100%_-_4px)] focus-within:w-[calc(100%_-_4px)]">
+                                    <p id="upload" class="absolute left-[57px] top-1/2 -translate-y-1/2 py-[15px] text-[#ACACB9]">Add an attachment</p>
+                                    <input required type="file" name="file-upload" id="file-upload" class="absolute top-1/2 w-full -translate-y-1/2 rounded-full py-[15px] pl-[57px] pr-[13px] font-semibold text-[#030504] opacity-0 file:hidden focus:outline-none" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                        </label>
+                        <button type="submit" class="flex w-full items-center justify-between rounded-full bg-cosmetics-gradient-pink-white px-5 py-[14px] transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">
+                            <strong class="font-semibold text-white">Confirm My Payment</strong>
+                            <img src="assets/images/icons/right.svg" alt="icon" class="size-[24px] shrink-0" />
+                        </button>
+                    </div>
+                </section>
+            </form>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/payment.js"></script>
+    </body>
+</html>

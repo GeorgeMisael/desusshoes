@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#DAE1E9] font-poppins text-[#0C0422];
+}
+.custom-bullet-active {
+    background: linear-gradient(180deg, #360cac 0%, #ff4d9f 100%);
+}
+
+.box {
+    background-image: repeating-linear-gradient(270deg, #e0e0ec, #e0e0ec 8px, transparent 8px, transparent 15px, #e0e0ec 15px);
+    background-size: 100% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+.box2 {
+    background-image: repeating-linear-gradient(0deg, #e0e0ec, #e0e0ec 10px, transparent 8px, transparent 14px);
+    background-size: 4px 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+}

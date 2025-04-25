@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="mx-auto flex min-h-screen max-w-[640px] flex-col gap-5 bg-[#F6F6F8] pb-[20px]">
+            <section id="NavTop">
+                <div class="px-5">
+                    <div class="mt-5 flex w-full flex-col gap-5 rounded-3xl bg-white pb-[44px] pt-3">
+                        <div class="relative">
+                            <a href="my-cart.html">
+                                <div class="absolute left-3 top-1/2 flex size-[44px] shrink-0 -translate-y-1/2 items-center justify-center rounded-full border border-cosmetics-greylight">
+                                    <img src="assets/images/icons/left.svg" alt="icon" class="size-5 shrink-0" />
+                                </div>
+                            </a>
+                            <div class="flex flex-col gap-[2px]">
+                                <h1 class="text-center text-lg font-bold leading-[27px]">Booking</h1>
+                                <p class="text-center text-sm leading-[21px] text-cosmetics-grey">We’ll give best treat</p>
+                            </div>
+                        </div>
+                        <div id="ProgressBar" class="relative px-5">
+                            <div class="flex">
+                                <div class="flex flex-col items-center">
+                                    <div class="relative z-10 flex h-[25px] items-center">
+                                        <div class="h-2 w-[60px] rounded-full bg-cosmetics-purple"></div>
+                                        <div class="absolute right-0 top-0 translate-x-1/2">
+                                            <div class="flex flex-col items-center gap-[6px]">
+                                                <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">1</div>
+                                                <p class="text-xs font-semibold leading-[18px]">Booking</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative flex h-[25px] w-full items-center">
+                                    <div class="left-0 h-2 w-1/2 rounded-full bg-[#EDEDF5]"></div>
+                                    <div class="absolute right-1/2 top-0 translate-x-1/2">
+                                        <div class="flex flex-col items-center gap-[6px]">
+                                            <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-[#D8D8E4] text-xs font-bold leading-[18px]">2</div>
+                                            <p class="text-xs font-semibold leading-[18px]">Payment</p>
+                                        </div>
+                                    </div>
+                                    <div class="right-0 h-2 w-1/2 rounded-full bg-[#EDEDF5]"></div>
+                                </div>
+                                <div class="relative z-10 flex h-[25px] w-[60px] items-center">
+                                    <div class="absolute left-0 top-0 -translate-x-1/2">
+                                        <div class="flex flex-col items-center gap-[6px]">
+                                            <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-[#D8D8E4] text-xs font-bold leading-[18px]">3</div>
+                                            <p class="text-xs font-semibold leading-[18px]">Delivery</p>
+                                        </div>
+                                    </div>
+                                    <div class="h-2 w-[60px] rounded-full bg-[#EDEDF5]"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <header>
+                <div class="flex flex-col gap-1 px-5">
+                    <h2 class="text-[26px] font-bold leading-[39px]">Start Booking</h2>
+                    <p class="text-cosmetics-grey">Data asli harus diberikan amet</p>
+                </div>
+            </header>
+            <div>
+                <form action="payment.html" class="flex flex-col gap-5 px-5">
+                    <section id="Informations">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold text-[#030504]">Informations</h3>
+                                    <p class="text-sm leading-[21px] text-[#43484C]">Input correct lorem data</p>
+                                </div>
+                            </div>
+                            <div class="box h-[1px] w-full"></div>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">Full Name</h4>
+                                <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <input required type="text" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Enter your full name" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/profil.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">Phone</h4>
+                                <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <input required type="tel" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Enter your phone" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/phone.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">Email Address</h4>
+                                <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <input required type="email" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Write your complete email" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/mail.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                        </div>
+                    </section>
+                    <section id="ShippingTo">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="assets/images/icons/shippingto.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold text-[#030504]">Shipping to</h3>
+                                    <p class="text-sm leading-[21px] text-[#43484C]">Input correct lorem data</p>
+                                </div>
+                            </div>
+                            <div class="box h-[1px] w-full"></div>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">City</h4>
+                                <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <input required type="text" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Enter your city" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/city.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">Address</h4>
+                                <div class="group relative flex h-[130px] items-center justify-center rounded-3xl bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <textarea required name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] resize-none rounded-3xl bg-[#F6F6F8] pl-[57px] pr-[13px] pt-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:rounded-[22px] focus:outline-none" placeholder="Write your complete address"></textarea>
+                                    <div class="absolute left-[14px] top-[13px] flex w-[35px] justify-between">
+                                        <img src="assets/images/icons/apartment.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                            <label class="flex flex-col gap-[6px]">
+                                <h4 class="font-semibold text-[#030504]">Post Code</h4>
+                                <div class="group relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC] transition-all duration-300 focus-within:bg-cosmetics-gradient-purple-pink">
+                                    <input required type="tel" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] transition-all duration-300 placeholder:font-normal placeholder:leading-[24px] placeholder:text-[#ACACB9] focus:h-[calc(100%_-_4px)] focus:w-[calc(100%_-_4px)] focus:outline-none" placeholder="Write your post code" />
+                                    <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                        <img src="assets/images/icons/location.svg" alt="icon" class="size-[24px] shrink-0" />
+                                        <span class="h-[26px] w-px bg-[#E0E0EC] transition-all duration-300 group-focus-within:bg-cosmetics-gradient-purple-pink"></span>
+                                    </div>
+                                </div>
+                                <p class="text-sm leading-[21px] text-[#E70011]">Lorem tidak valid silahkan coba lagi ya</p>
+                            </label>
+                        </div>
+                    </section>
+                    <button type="submit" class="mt-[10px] flex w-full items-center justify-between rounded-full bg-cosmetics-gradient-pink-white px-5 py-[14px] transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">
+                        <strong class="font-semibold text-white">Continue to Payment</strong>
+                        <img src="assets/images/icons/right.svg" alt="icon" class="size-[24px] shrink-0" />
+                    </button>
+                </form>
+            </div>
+        </main>
+        <script src="js/booking.js"></script>
+    </body>
+</html>

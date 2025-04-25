@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="relative mx-auto flex min-h-screen max-w-[640px] flex-col gap-5 bg-[#F6F6F8] pb-[48px]">
+            <div id="Background" class="absolute left-0 right-0 top-0">
+                <img src="assets/images/backgorunds/purple.png" alt="image" class="h-[522px] w-full object-cover object-bottom" />
+            </div>
+            <section id="NavTop" class="px-5">
+                <div class="relative mt-5 flex w-full flex-col gap-5 rounded-3xl bg-white pb-[44px] pt-3">
+                    <div class="flex flex-col gap-[2px]">
+                        <h1 class="text-center text-lg font-bold leading-[27px]">Order Finished</h1>
+                        <p class="text-center text-sm leading-[21px] text-cosmetics-grey">We’ll give best treat</p>
+                    </div>
+                    <div id="ProgressBar" class="relative px-[12px]">
+                        <div class="flex">
+                            <div class="flex flex-col items-center">
+                                <div class="relative z-10 flex h-[25px] items-center">
+                                    <div class="h-2 w-[60px] rounded-full bg-cosmetics-purple"></div>
+                                    <div class="absolute right-0 top-0 translate-x-1/2">
+                                        <div class="flex flex-col items-center gap-[6px]">
+                                            <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">1</div>
+                                            <p class="text-xs font-semibold leading-[18px]">Booking</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative flex h-[25px] w-full items-center">
+                                <div class="left-0 h-2 w-1/2 rounded-full bg-cosmetics-purple"></div>
+                                <div class="absolute right-1/2 top-0 translate-x-1/2">
+                                    <div class="flex flex-col items-center gap-[6px]">
+                                        <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">2</div>
+                                        <p class="text-xs font-semibold leading-[18px]">Payment</p>
+                                    </div>
+                                </div>
+                                <div class="right-0 h-2 w-1/2 rounded-full bg-cosmetics-purple"></div>
+                            </div>
+                            <div class="relative z-10 flex h-[25px] w-[60px] items-center">
+                                <div class="h-2 w-[60px] rounded-full bg-cosmetics-purple"></div>
+                                <div class="absolute left-0 top-0 -translate-x-1/2">
+                                    <div class="flex flex-col items-center gap-[6px]">
+                                        <div class="flex h-[25px] w-[25px] items-center justify-center rounded-full bg-cosmetics-purple text-xs font-bold leading-[18px] text-white">3</div>
+                                        <p class="text-xs font-semibold leading-[18px]">Delivery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <header class="relative flex flex-col gap-4 px-5">
+                <img src="assets/images/icons/car-white.svg" alt="icon" class="size-[70px] shrink-0" />
+                <div class="flex flex-col gap-[4px]">
+                    <h2 class="text-[26px] font-bold leading-[39px] text-white">Order Finished</h2>
+                    <p class="text-white">Gunakan informasi di bawah agar anda dapat melihat status pemesanannya</p>
+                </div>
+            </header>
+            <section id="Information" class="relative px-5">
+                <div class="flex w-full flex-col gap-5 rounded-3xl bg-white px-[14px] py-5">
+                    <label class="flex flex-col gap-[6px]">
+                        <h4 class="font-semibold text-[#030504]">Booking TRX ID</h4>
+                        <div>
+                            <div class="relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC]">
+                                <input value="SHAYNA1938" readonly type="text" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] focus:outline-none" />
+                                <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                    <img src="assets/images/icons/booking-trx-id.svg" alt="icon" class="size-[24px] shrink-0" />
+                                    <span class="h-[26px] w-px bg-[#E0E0EC]"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label class="flex flex-col gap-[6px]">
+                        <h4 class="font-semibold text-[#030504]">Email Address</h4>
+                        <div>
+                            <div class="relative flex h-[54px] items-center justify-center rounded-full bg-[#E0E0EC]">
+                                <input value="shayna@beauty.com" readonly type="text" name="" id="" class="absolute h-[calc(100%_-_2px)] w-[calc(100%_-_2px)] rounded-full bg-[#F6F6F8] pl-[57px] pr-[13px] font-semibold text-[#030504] focus:outline-none" />
+                                <div class="absolute left-[14px] top-1/2 flex w-[35px] -translate-y-1/2 justify-between">
+                                    <img src="assets/images/icons/mail.svg" alt="icon" class="size-[24px] shrink-0" />
+                                    <span class="h-[26px] w-px bg-[#E0E0EC]"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </section>
+            <section id="BookingButton" class="mt-[10px] flex flex-col gap-[14px] px-5">
+                <a href="index.html" class="flex w-full justify-center rounded-full bg-cosmetics-gradient-pink-white py-[14px] font-semibold text-white transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">Order Again</a>
+                <a href="view-orders.html" class="flex w-full justify-center rounded-full bg-[#0C0422] py-[14px] font-semibold text-white transition-all duration-300">Check My Booking</a>
+            </section>
+        </main>
+    </body>
+</html>

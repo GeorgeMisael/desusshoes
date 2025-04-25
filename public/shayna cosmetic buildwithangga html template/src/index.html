@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="mx-auto flex min-h-screen max-w-[640px] flex-col gap-5 bg-white pb-[141px]">
+            <section id="Info">
+                <div class="mt-5 flex items-center justify-between px-5">
+                    <div class="language flex h-[32px] items-center gap-[10px]">
+                        <button type="button" class="indo flex items-center gap-[6px]">
+                            <img src="assets/images/icons/id.svg" alt="icon" class="h-[15px] w-5 shrink-0" />
+                            <p class="text-xs font-semibold leading-[18px]">ID</p>
+                        </button>
+                        <span class="block h-full w-px bg-cosmetics-greylight"></span>
+                        <button type="button" class="jpn flex items-center gap-[6px]">
+                            <img src="assets/images/icons/jp.svg" alt="icon" class="h-[15px] w-5 shrink-0" />
+                            <p class="text-xs font-semibold leading-[18px]">JP</p>
+                        </button>
+                    </div>
+                    <div class="flex items-center gap-[6px]">
+                        <img src="assets/images/icons/telp.svg" alt="icon" class="size-5 shrink-0" />
+                        <strong class="text-xs font-semibold leading-[18px]">62821202019213</strong>
+                    </div>
+                </div>
+            </section>
+            <section id="Company">
+                <div class="flex justify-between px-5">
+                    <a href="">
+                        <img src="assets/images/logos/shayna.svg" alt="icon" class="h-[48px] w-[113px] shrink-0" />
+                    </a>
+                    <div class="flex items-center gap-[10px]">
+                        <a href="" class="flex size-[44px] items-center justify-center rounded-full bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                            <div class="flex h-full w-full shrink-0 items-center justify-center rounded-full bg-white">
+                                <img src="assets/images/icons/search.svg" alt="icon" class="size-5 shrink-0" />
+                            </div>
+                        </a>
+                        <a href="my-cart.html" class="flex size-[44px] items-center justify-center rounded-full bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                            <div class="flex h-full w-full shrink-0 items-center justify-center rounded-full bg-white">
+                                <img src="assets/images/icons/cart.svg" alt="icon" class="size-5 shrink-0" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="Hero">
+                <div id="HeroSlider" class="swiper w-full overflow-x-hidden">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide !w-fit">
+                            <a href="">
+                                <div class="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
+                                    <img src="assets/images/thumbnails/girls-day.png" alt="image" class="h-full w-full object-cover" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide !w-fit">
+                            <a href="">
+                                <div class="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
+                                    <img src="assets/images/thumbnails/beuty-tips.png" alt="image" class="h-full w-full object-cover" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide !w-fit">
+                            <a href="">
+                                <div class="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
+                                    <img src="assets/images/thumbnails/discount-for.png" alt="image" class="h-full w-full object-cover" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="TopCategories">
+                <div class="flex flex-col gap-4 px-5">
+                    <h2 class="font-bold">Top Categories</h2>
+                    <div class="categories-cards grid grid-cols-3 gap-4">
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/serum.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Serum</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/mascaras.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Mascaras</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/lipsticks.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Lipsticks</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/brushes.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Brushes</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/face-mask.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Face Mask</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="category.html">
+                            <div class="flex h-[142px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                <div class="flex h-full w-full flex-col justify-center rounded-[23px] bg-white px-[10px] hover:rounded-[22px]">
+                                    <div class="mx-auto mb-[10px] flex size-[60px] items-center justify-center overflow-hidden rounded-full">
+                                        <img src="assets/images/thumbnails/foundation.png" alt="image" class="h-full w-full object-cover" />
+                                    </div>
+                                    <h3 class="mb-[2px] text-center text-sm font-semibold leading-[21px]">Foundation</h3>
+                                    <p class="text-center text-sm leading-[21px] text-cosmetics-grey">18,398</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="PopularChoices">
+                <div class="flex flex-col gap-4 bg-[#F6F6F8] pb-[30px] pt-5">
+                    <h2 class="px-5 font-bold">Popular Choices</h2>
+                    <div id="PopularChoicesSlider" class="swiper w-full overflow-x-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide !w-fit">
+                                <a href="details.html">
+                                    <div class="relative flex h-[276px] w-[222px] items-center justify-center rounded-3xl transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                        <div class="flex h-full flex-col justify-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                            <span class="absolute right-[14px] top-[14px] flex items-center justify-center gap-[2px] rounded-full bg-cosmetics-purple px-2 py-[6px]">
+                                                <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                                <p class="text-xs font-bold leading-[18px] text-white">4.8</p>
+                                            </span>
+                                            <div class="mx-auto flex h-[130px] w-full items-center justify-center">
+                                                <img src="assets/images/thumbnails/coverblur.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="des flex flex-col gap-1">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">SOMETHINC</h4>
+                                                <h3 class="line-clamp-2 h-[48px] w-full font-semibold">CoverBlur Powder Foundation Natural</h3>
+                                                <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide !w-fit">
+                                <a href="details.html">
+                                    <div class="relative flex h-[276px] w-[222px] items-center justify-center rounded-3xl transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                        <div class="flex h-full flex-col justify-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                            <span class="absolute right-[14px] top-[14px] flex items-center justify-center gap-[2px] rounded-full bg-cosmetics-purple px-2 py-[6px]">
+                                                <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                                <p class="text-xs font-bold leading-[18px] text-white">4.8</p>
+                                            </span>
+                                            <div class="mx-auto flex h-[130px] w-full items-center justify-center">
+                                                <img src="assets/images/thumbnails/lipstick.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="des flex flex-col gap-1">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELLINA</h4>
+                                                <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Lipstick Golden Ultra Alami Lebih Basah</h3>
+                                                <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide !w-fit">
+                                <a href="details.html">
+                                    <div class="relative flex h-[276px] w-[222px] items-center justify-center rounded-3xl transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                        <div class="flex h-full flex-col justify-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                            <span class="absolute right-[14px] top-[14px] flex items-center justify-center gap-[2px] rounded-full bg-cosmetics-purple px-2 py-[6px]">
+                                                <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                                <p class="text-xs font-bold leading-[18px] text-white">4.8</p>
+                                            </span>
+                                            <div class="mx-auto flex h-[130px] w-full items-center justify-center overflow-hidden">
+                                                <img src="assets/images/thumbnails/deodorant.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="des flex flex-col gap-1">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">NIVEA</h4>
+                                                <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Deodorant Alami Anti Lembab Seharian</h3>
+                                                <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide !w-fit">
+                                <a href="details.html">
+                                    <div class="relative flex h-[276px] w-[220px] items-center justify-center rounded-3xl transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                        <div class="flex h-full flex-col justify-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                            <span class="absolute right-[14px] top-[14px] flex items-center justify-center gap-[2px] rounded-full bg-cosmetics-purple px-2 py-[6px]">
+                                                <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                                <p class="text-xs font-bold leading-[18px] text-white">4.8</p>
+                                            </span>
+                                            <div class="mx-auto flex h-[130px] w-full items-center justify-center overflow-hidden">
+                                                <img src="assets/images/thumbnails/mascara.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="des flex flex-col gap-1">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELLINA</h4>
+                                                <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Mascara Pinky Pilihan Arti Terkenal Cantik</h3>
+                                                <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="FreshThisSummer">
+                <div class="flex flex-col gap-4 px-5">
+                    <h2 class="font-bold">Fresh This Summer</h2>
+                    <a href="details.html">
+                        <div class="flex h-[130px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                            <div class="flex h-full w-full items-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                <div class="flex size-[90px] shrink-0 items-center justify-center">
+                                    <img src="assets/images/thumbnails/acne.png" alt="image" class="h-full w-full object-contain" />
+                                </div>
+                                <div class="flex w-full flex-col gap-[2px]">
+                                    <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELINA</h4>
+                                    <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Acne Patch Tidak Sakit</h3>
+                                    <div class="flex items-center justify-between">
+                                        <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                        <div class="flex items-center justify-center gap-[2px]">
+                                            <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                            <p class="text-xs font-bold leading-[18px]">4.8</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="details.html">
+                        <div class="flex h-[130px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                            <div class="flex h-full w-full items-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                <div class="flex size-[90px] shrink-0 items-center justify-center">
+                                    <img src="assets/images/thumbnails/bedak.png" alt="image" class="h-full w-full object-contain" />
+                                </div>
+                                <div class="flex w-full flex-col gap-[2px]">
+                                    <h4 class="text-xs leading-[18px] text-cosmetics-purple">SOMETHINK</h4>
+                                    <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Bedak Halus Penghilang Jerawat Tanpa Effect</h3>
+                                    <div class="flex items-center justify-between">
+                                        <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                        <div class="flex items-center justify-center gap-[2px]">
+                                            <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                            <p class="text-xs font-bold leading-[18px]">4.8</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="details.html">
+                        <div class="flex h-[130px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                            <div class="flex h-full w-full items-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
+                                <div class="flex size-[90px] shrink-0 items-center justify-center">
+                                    <img src="assets/images/thumbnails/acne-patch.png" alt="image" class="h-full w-full object-contain" />
+                                </div>
+                                <div class="flex w-full flex-col gap-[2px]">
+                                    <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELINA</h4>
+                                    <h3 class="line-clamp-2 h-[48px] w-full font-semibold">Acne Patch Tidak Sakit</h3>
+                                    <div class="flex items-center justify-between">
+                                        <strong class="font-semibold text-cosmetics-pink">Rp 8.540.000</strong>
+                                        <div class="flex items-center justify-center gap-[2px]">
+                                            <img src="assets/images/icons/star.svg" alt="icon" class="size-4 shrink-0" />
+                                            <p class="text-xs font-bold leading-[18px]">4.8</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <nav class="fixed bottom-0 left-0 right-0 z-30 mx-auto w-full">
+                <div class="mx-auto max-w-[640px]">
+                    <div class="h-[89px] bg-white px-[30px] shadow-[0px_-4px_30px_0px_#1107260D]">
+                        <ul class="flex justify-between">
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/browse.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Browse</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="view-orders.html">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/car.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Orders</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="relative -top-[23px]">
+                                    <div class="relative flex h-[80px] w-[80px] items-center justify-center rounded-full bg-[#FAF9FA]">
+                                        <div class="flex size-[65px] items-center justify-center rounded-full bg-cosmetics-gradient-pink-white transition-shadow duration-300 hover:shadow-[0px_6px_10px_0px_#FF4D9E6E]">
+                                            <img src="assets/images/icons/video.svg" alt="icon" class="size-[30px] shrink-0" />
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/gift.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Perks</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="flex items-center">
+                                <a href="">
+                                    <div class="flex w-[50px] flex-col items-center gap-1">
+                                        <img src="assets/images/icons/message.svg" alt="icon" class="size-6 shrink-0" />
+                                        <p class="text-sm leading-[21px]">Helps</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

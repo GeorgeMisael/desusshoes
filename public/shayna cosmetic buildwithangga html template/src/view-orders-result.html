@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shayna Cosmetics</title>
+    </head>
+    <body>
+        <main class="mx-auto flex flex-col min-h-screen max-w-[640px] bg-[#F6F6F8]">
+            <section id="NavTop">
+                <div class="relative mt-5 px-5">
+                    <div class="flex w-full items-center justify-between rounded-3xl bg-white px-3 py-3">
+                        <a href="view-orders.html">
+                            <div class="flex size-[44px] shrink-0 items-center justify-center rounded-full border border-cosmetics-greylight">
+                                <img src="assets/images/icons/left.svg" alt="icon" class="size-5 shrink-0" />
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[2px]">
+                            <h1 class="text-center text-lg font-bold leading-[27px]">My Order Details</h1>
+                            <p class="text-center text-sm leading-[21px] text-cosmetics-grey">We’ll give you the best one</p>
+                        </div>
+                        <a href="">
+                            <div class="flex size-[44px] shrink-0 items-center justify-center rounded-full border border-cosmetics-greylight">
+                                <img src="assets/images/icons/folder.svg" alt="icon" class="size-5 shrink-0" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="NotFound" class="px-5 my-auto">
+                <div class="flex flex-col items-center gap-[30px]">
+                    <img src="assets/images/icons/car-black.svg" alt="icon" class="size-[70px] shrink-0" />
+                    <div class="flex flex-col gap-1">
+                        <h2 class="text-center text-[26px] font-bold leading-[39px]">Order Not Found</h2>
+                        <p class="text-center leading-[26px]">Silahkan periksa transaksi dengan kode <br> booking dan email yang berbeda</p>
+                    </div>
+                    <a href="booking-finished-search.html" class="px-5">
+                        <div class="w-full rounded-full bg-cosmetics-gradient-pink-white px-5 py-[14px] transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">
+                            <strong class="font-semibold text-white">Find Other Booking</strong>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <div class="flex flex-col gap-5 pb-[50px] mt-5">
+                <div id="Pending" class="flex flex-col gap-5">
+                    <section id="ProductPurchased" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/guarantee.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Product Purchased</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Anda membeli produk berikut</p>
+                                    </div>
+                                </div>
+                                <button type="button" data-expand="ProductPurchasedPendingJ" class="shrink-0">
+                                    <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" />
+                                </button>
+                            </div>
+                            <div id="ProductPurchasedPendingJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex h-[143px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                    <div class="flex h-full w-full flex-col justify-center gap-[12px] rounded-[23px] bg-white px-4 transition-all duration-300 hover:rounded-[22px]">
+                                        <div class="flex items-center gap-4">
+                                            <div class="flex size-[60px] shrink-0 items-center justify-center">
+                                                <img src="assets/images/thumbnails/lipstick.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="flex flex-col gap-[6px]">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELINA</h4>
+                                                <h3 class="line-clamp-2 h-[42px] w-full text-sm font-semibold leading-[21px]">Lipstick Golden Pinky Oil Without Amet Dolor Sii</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flex w-full items-center justify-between">
+                                            <strong class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Rp 28.540.000</strong>
+                                            <div class="rounded-full bg-[#F6F6F8] px-[12px] py-[6px]">
+                                                <p class="text-sm font-semibold leading-[21px]">199 qty</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex h-[143px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                    <div class="flex h-full w-full flex-col justify-center gap-[12px] rounded-[23px] bg-white px-4 transition-all duration-300 hover:rounded-[22px]">
+                                        <div class="flex items-center gap-4">
+                                            <div class="flex size-[60px] shrink-0 items-center justify-center">
+                                                <img src="assets/images/thumbnails/coverblur.png" alt="" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="flex flex-col gap-[6px]">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">SOOMETHINK</h4>
+                                                <h3 class="line-clamp-2 h-[42px] w-full text-sm font-semibold leading-[21px]">Bedak Halus Anti Acnes</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flex w-full items-center justify-between">
+                                            <strong class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Rp 28.540.000</strong>
+                                            <div class="rounded-full bg-[#F6F6F8] px-[12px] py-[6px]">
+                                                <p class="text-sm font-semibold leading-[21px]">22 qty</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="PaymentDetails" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Payment Details</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Details yang telah dibayar</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="shrink-0" data-expand="PaymentDetailsPendingJ"><img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" /></button>
+                            </div>
+                            <div id="PaymentDetailsPendingJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Status</p>
+                                    </div>
+                                    <span class="rounded-full bg-[#FF9D2A] px-[10px] py-1 text-xs font-semibold leading-[18px]">PENDING</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Booking ID</p>
+                                    </div>
+                                    <strong class="font-semibold">SHAYNA9928</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Total Quantity</p>
+                                    </div>
+                                    <strong class="font-semibold">198 Items</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Sub Total</p>
+                                    </div>
+                                    <strong class="font-semibold">Rp 19.000.000</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Tax 11%</p>
+                                    </div>
+                                    <strong class="font-semibold">Rp 8.380.391</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Grand Total</p>
+                                    </div>
+                                    <strong class="text-[22px] font-bold leading-[33px] text-cosmetics-pink">Rp 58.380.391</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="ProgressBar" class="relative flex items-center gap-5 px-5">
+                        <div class="progress-bar flex flex-col justify-center">
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#360CAC]"></div>
+                                <div class="h-[105px] w-1 rounded-full bg-[#360CAC]"></div>
+                            </div>
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#360CAC]"></div>
+                                <div class="box2 h-[110px] w-1 rounded-full"></div>
+                            </div>
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#E0E0EC]"></div>
+                            </div>
+                        </div>
+                        <div class="flex w-full flex-col gap-5">
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/guarantee.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Booking Created</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Lorem dolor si amet data order</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/banktf.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Verifying Payment</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Sedang mastiin uang masuk</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/shippingto.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Shipping Now</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Produk sedang diantarkan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="PersonalInformations" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Personal Informations</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Barang akan kami kirim</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="shrink-0" data-expand="PersonalInformationsPendingJ">
+                                    <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" />
+                                </button>
+                            </div>
+                            <div id="PersonalInformationsPendingJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/profil.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Name</p>
+                                    </div>
+                                    <strong class="font-semibold">Shayna Putri</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/phone.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Phone</p>
+                                    </div>
+                                    <strong class="font-semibold">0821938293812</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/mail.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Email</p>
+                                    </div>
+                                    <strong class="font-semibold">shayna@gmail.com</strong>
+                                </div>
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/city.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>City</p>
+                                    </div>
+                                    <strong class="font-semibold">Jakarta Selatan</strong>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/apartment.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Home Address</p>
+                                    </div>
+                                    <strong class="font-semibold">Jalan berbakti kepada orang tua dan bekerja keras setiap harinya no 102</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/location.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Post Code</p>
+                                    </div>
+                                    <strong class="font-semibold">1803948</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <a href="" class="px-5">
+                        <div class="flex w-full items-center justify-between rounded-full bg-cosmetics-gradient-pink-white px-5 py-[14px] transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">
+                            <strong class="font-semibold text-white">Call Service Center</strong>
+                            <img src="assets/images/icons/tel.svg" alt="icon" class="size-[24px] shrink-0" />
+                        </div>
+                    </a>
+                </div>
+                <div id="Success" class="flex flex-col gap-5">
+                    <section id="ProductPurchased" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/guarantee.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Product Purchased</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Anda membeli produk berikut</p>
+                                    </div>
+                                </div>
+                                <button type="button" data-expand="ProductPurchasedSuccessJ" class="shrink-0">
+                                    <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" />
+                                </button>
+                            </div>
+                            <div id="ProductPurchasedSuccessJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex h-[143px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                    <div class="flex h-full w-full flex-col justify-center gap-[12px] rounded-[23px] bg-white px-4 transition-all duration-300 hover:rounded-[22px]">
+                                        <div class="flex items-center gap-4">
+                                            <div class="flex size-[60px] shrink-0 items-center justify-center">
+                                                <img src="assets/images/thumbnails/lipstick.png" alt="image" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="flex flex-col gap-[6px]">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">MAYBELINA</h4>
+                                                <h3 class="line-clamp-2 h-[42px] w-full text-sm font-semibold leading-[21px]">Lipstick Golden Pinky Oil Without Amet Dolor Sii</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flex w-full items-center justify-between">
+                                            <strong class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Rp 28.540.000</strong>
+                                            <div class="rounded-full bg-[#F6F6F8] px-[12px] py-[6px]">
+                                                <p class="text-sm font-semibold leading-[21px]">199 qty</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex h-[143px] items-center justify-center rounded-3xl bg-cosmetics-greylight p-px transition-all duration-300 hover:bg-cosmetics-gradient-purple-pink hover:p-[2px]">
+                                    <div class="flex h-full w-full flex-col justify-center gap-[12px] rounded-[23px] bg-white px-4 transition-all duration-300 hover:rounded-[22px]">
+                                        <div class="flex items-center gap-4">
+                                            <div class="flex size-[60px] shrink-0 items-center justify-center">
+                                                <img src="assets/images/thumbnails/coverblur.png" alt="" class="h-full w-full object-contain" />
+                                            </div>
+                                            <div class="flex flex-col gap-[6px]">
+                                                <h4 class="text-xs leading-[18px] text-cosmetics-purple">SOOMETHINK</h4>
+                                                <h3 class="line-clamp-2 h-[42px] w-full text-sm font-semibold leading-[21px]">Bedak Halus Anti Acnes</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flex w-full items-center justify-between">
+                                            <strong class="text-sm font-semibold leading-[21px] text-cosmetics-pink">Rp 28.540.000</strong>
+                                            <div class="rounded-full bg-[#F6F6F8] px-[12px] py-[6px]">
+                                                <p class="text-sm font-semibold leading-[21px]">22 qty</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="PaymentDetails" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Payment Details</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Details yang telah dibayar</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="shrink-0" data-expand="PaymentDetailsSuccessJ"><img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" /></button>
+                            </div>
+                            <div id="PaymentDetailsSuccessJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Status</p>
+                                    </div>
+                                    <span class="rounded-full bg-[#099954] px-[10px] py-1 text-xs font-semibold leading-[18px] text-white">SUCCESFUL</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Booking ID</p>
+                                    </div>
+                                    <strong class="font-semibold">SHAYNA9928</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Total Quantity</p>
+                                    </div>
+                                    <strong class="font-semibold">198 Items</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Sub Total</p>
+                                    </div>
+                                    <strong class="font-semibold">Rp 19.000.000</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Tax 11%</p>
+                                    </div>
+                                    <strong class="font-semibold">Rp 8.380.391</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/list.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Grand Total</p>
+                                    </div>
+                                    <strong class="text-[22px] font-bold leading-[33px] text-cosmetics-pink">Rp 58.380.391</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="ProgressBar" class="relative flex items-center gap-5 px-5">
+                        <div class="progress-bar flex flex-col justify-center">
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#360CAC]"></div>
+                                <div class="h-[105px] w-1 rounded-full bg-[#360CAC]"></div>
+                            </div>
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#360CAC]"></div>
+                                <div class="h-[110px] w-1 rounded-full bg-[#360CAC]"></div>
+                            </div>
+                            <div class="relative z-10 flex w-4 flex-col items-center">
+                                <div class="absolute top-0 size-4 -translate-y-1/2 rounded-full bg-[#360CAC]"></div>
+                            </div>
+                        </div>
+                        <div class="flex w-full flex-col gap-5">
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/guarantee.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Booking Created</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Lorem dolor si amet data order</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/banktf.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Verifying Payment</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Sedang mastiin uang masuk</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-[10px] rounded-3xl bg-white p-5">
+                                <img src="assets/images/icons/shippingto.svg" alt="icon" class="size-[38px] shrink-0" />
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-semibold">Shipping Now</h3>
+                                    <p class="text-sm leading-[21px] text-cosmetics-grey">Produk sedang diantarkan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="PersonalInformations" class="px-5">
+                        <div class="flex flex-col gap-5 rounded-3xl bg-white px-5 py-[30px]">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-[10px]">
+                                    <img src="assets/images/icons/information.svg" alt="icon" class="size-[38px] shrink-0" />
+                                    <div class="flex flex-col gap-1">
+                                        <h2 class="font-semibold">Personal Informations</h2>
+                                        <p class="text-sm leading-[21px] text-cosmetics-grey">Barang akan kami kirim</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="shrink-0" data-expand="PersonalInformationsSuccessJ">
+                                    <img src="assets/images/icons/bottom.svg" alt="icon" class="size-6 shrink-0" />
+                                </button>
+                            </div>
+                            <div id="PersonalInformationsSuccessJ" class="flex flex-col gap-5">
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/profil.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Name</p>
+                                    </div>
+                                    <strong class="font-semibold">Shayna Putri</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/phone.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Phone</p>
+                                    </div>
+                                    <strong class="font-semibold">0821938293812</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/mail.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Email</p>
+                                    </div>
+                                    <strong class="font-semibold">shayna@gmail.com</strong>
+                                </div>
+                                <div class="box h-[1px] w-full"></div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/city.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>City</p>
+                                    </div>
+                                    <strong class="font-semibold">Jakarta Selatan</strong>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/apartment.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Home Address</p>
+                                    </div>
+                                    <strong class="font-semibold">Jalan berbakti kepada orang tua dan bekerja keras setiap harinya no 102</strong>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-[6px]">
+                                        <img src="assets/images/icons/location.svg" alt="icon" class="size-5 shrink-0" />
+                                        <p>Post Code</p>
+                                    </div>
+                                    <strong class="font-semibold">1803948</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <a href="" class="px-5">
+                        <div class="flex w-full items-center justify-between rounded-full bg-cosmetics-gradient-pink-white px-5 py-[14px] transition-all duration-300 hover:shadow-[0px_6px_22px_0px_#FF4D9E82]">
+                            <strong class="font-semibold text-white">Call Service Center</strong>
+                            <img src="assets/images/icons/tel.svg" alt="icon" class="size-[24px] shrink-0" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/jquery.js"></script>
+    </body>
+</html>
