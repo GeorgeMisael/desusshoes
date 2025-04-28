@@ -27,7 +27,7 @@ class BookingTransaction extends Model
         'is_paid',
     ];
 
-    public function generateUniqueTrxId()
+    public static function generateUniqueTrxId()
     {
         $prefix = 'DESUS';
         do{
