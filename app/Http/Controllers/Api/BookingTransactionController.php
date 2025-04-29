@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\BookingTransaction;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreBookingTransactionRequest;
+use App\Http\Resources\Api\BookingTransactionApiResource;
 
 class BookingTransactionController extends Controller
 {
@@ -64,5 +65,29 @@ class BookingTransactionController extends Controller
         }catch(\Exception $e){
             return response()->json(['message' => 'An error occureed', 'error' => $e->getMessage()], 500);
         }
+    }
+
+    public function booking_details(Request $request){
+
+        $request->validate([
+            'email'=> 'required|string',
+            'booking_trx_id' => 'required|string'
+        ]);
+
+        $booking = BookingTransaction::where('email', $request->email)
+                ->where('booking_trx_id', $request->booking_trx_id)
+                ->with([
+                    'transactionDetails',
+                    'transactionDetails.cosmetic',
+                ])
+                ->first();
+        
+        if(!$booking){
+            return response()->json([
+                'message' => 'Booking not found'
+            ], 404);
+        }
+
+        return new BookingTransactionApiResource($booking);
     }
 }

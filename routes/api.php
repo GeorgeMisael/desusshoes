@@ -21,4 +21,5 @@ Route::get('/brand/{brand:slug}', [BrandController::class, 'show']);
 Route::apiResource('/brands', BrandController::class);
 
 Route::post('/booking-transaction', [BookingTransactionController::class, 'store']);
+
 Route::post('/check-booking', [BookingTransactionController::class, 'booking_details']);
